@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Prayer Timming </title>
+    <link rel="stylesheet" href="mobile.cFss">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <h1 id="head">Prayers Timings</h1>
+
+    <form action="" onsubmit="timing() ; return false ; ">
+
+        <input type="text" id="cityName" placeholder="Enter Your City Name" autofocus>
+
+    </form>
+
+    <div id="info">
+        <!-- <div id="city"></div>
+        <div id="country"></div> -->
+        <div id="T-Zone"></div>
+
+        <div id="date">
+            <div id="d1">
+                <div id="monthH"></div>
+                <div id="dateH"></div>
+            </div>
+
+            <div id="d2">
+                <div id="weekDay"></div>
+                <div id="yearH"></div>
+            </div>
+        </div>
+
+        <div id="timings">
+            <div id="midNight" class="pTime"></div>
+            <div id="Imsak" class="pTime"></div>
+            <div id="fajr" class="pTime"></div>
+            <div id="sunrise" class="pTime"></div>
+            <div id="duhur" class="pTime"></div>
+            <div id="asar" class="pTime"></div>
+            <div id="sunset" class="pTime"></div>
+            <div id="maghrib" class="pTime"></div>
+            <div id="isha" class="pTime"></div>
+        </div>
+        <!-- <div id=""></div> -->
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
