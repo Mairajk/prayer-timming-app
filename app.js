@@ -29,5 +29,7 @@ let timing = () => {
 
     })
 
+    document.querySelector(`#info`).removeAttribute("class") ;
+
 
 }

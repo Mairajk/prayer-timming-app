@@ -5,10 +5,10 @@
         /* background-color: black; */
         color: cornsilk;
         text-align: center;
-        background: url(./1117529.jpg) no-repeat center/cover;
-        /* background-size: cover;
-        background-attachment: fixed; */
-        /* background-repeat :no-repeat; */
+        background: url(./1117529.jpg) ;
+        background-size: cover;
+        background-attachment: fixed; 
+         background-repeat :no-repeat;
         /* margin-top: 0px; */
         /* height:100% ; */
 
@@ -167,5 +167,9 @@
     .pHead {
         /* margin-top : 10px;
     margin-bottom: 10px ; */
+    }
+
+    .main{
+        visibility: hidden;
     }
 }

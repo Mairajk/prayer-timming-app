@@ -6,11 +6,9 @@
         color: cornsilk;
         text-align: center;
         background: url(./1117529.jpg) no-repeat center/cover;
-        /* width: 820px ;
-        background-size: initial ;
-        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed; 
-         background-repeat :no-repeat; */
+         background-repeat :no-repeat;
         margin-top: 0px;
         /* background-color: darkslategrey; */
 
@@ -27,6 +25,7 @@
         margin: 0px auto;
         margin-bottom: 50px;
         margin-top: 50px;
+        /* margin-left: 10px; */
         text-shadow: 3px 3px 2px black;
         width: 620px;
         letter-spacing: 0.05em;
@@ -43,13 +42,14 @@
         border-radius: 30%;
         text-align: center;
         border: 2px solid cornsilk;
-        color: darkslategray;
+        color: cornsilk;
         background-color: cornsilk;
         opacity: 0.8;
         font-weight: bolder;
         font-size: 25px;
         text-transform: capitalize;
         text-shadow: 1px 1px 1px black;
+        margin-left: 160px ;
     }
 
     input::placeholder {
@@ -80,7 +80,7 @@
     #d2 {
         display: flex;
         justify-content: center;
-        margin: 0px 200px 50px 0px;
+        margin: 0px 200px 50px 20px;
     }
 
     #weekDay {
@@ -101,7 +101,7 @@
         justify-content: center;
         flex-wrap: wrap;
         margin: 0 auto;
-        width: 800px;
+        width: 700px;
     }
 
     .pTime {
@@ -164,10 +164,16 @@
         font-weight: bold;
         box-shadow: 3px 3px 5px black;
         text-shadow: 3px 3px 1px black;
+        /* margin-left: 20px; */
     }
 
     .pHead {
         /* margin-top : 10px;
     margin-bottom: 10px ; */
+    }
+
+    
+    .main{
+        visibility: hidden;
     }
 }
